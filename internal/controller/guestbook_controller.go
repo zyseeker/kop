@@ -24,7 +24,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	webappv1 "test.vmware/gb/api/v1"
+	webappv1 "github.vmware/zyseeker/kop/api/v1"
 )
 
 // GuestbookReconciler reconciles a Guestbook object
@@ -52,7 +52,7 @@ func (r *GuestbookReconciler) Reconcile(ctx context.Context, req ctrl.Request) (
 	var book = webappv1.Guestbook{}
 	e := r.Get(ctx, req.NamespacedName, &book, &client.GetOptions{})
 	if e != nil {
-		return ctrl.Result{}, eß
+		return ctrl.Result{}, e
 	}
 
 	return ctrl.Result{}, nil

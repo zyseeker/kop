@@ -1,4 +1,4 @@
-module test.vmware/gb
+module github.vmware/zyseeker/kop
 
 go 1.20
 

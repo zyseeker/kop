@@ -6,7 +6,7 @@ domain: test.vmware
 layout:
 - go.kubebuilder.io/v4
 projectName: kop
-repo: test.vmware/gb
+repo: github.vmware/zyseeker/kop
 resources:
 - api:
     crdVersion: v1
@@ -15,6 +15,6 @@ resources:
   domain: test.vmware
   group: webapp
   kind: Guestbook
-  path: test.vmware/gb/api/v1
+  path: github.vmware/zyseeker/kop/api/v1
   version: v1
 version: "3"
