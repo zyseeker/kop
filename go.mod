@@ -1,4 +1,4 @@
-module github.vmware/zyseeker/kop
+module github.com/zyseeker/kop
 
 go 1.20
 

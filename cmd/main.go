@@ -32,8 +32,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 
-	webappv1 "github.vmware/zyseeker/kop/api/v1"
-	"github.vmware/zyseeker/kop/internal/controller"
+	webappv1 "github.com/zyseeker/kop/api/v1"
+	"github.com/zyseeker/kop/internal/controller"
 	//+kubebuilder:scaffold:imports
 )
 

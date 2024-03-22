@@ -24,7 +24,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
 
-	webappv1 "github.vmware/zyseeker/kop/api/v1"
+	webappv1 "github.com/zyseeker/kop/api/v1"
 )
 
 // GuestbookReconciler reconciles a Guestbook object
